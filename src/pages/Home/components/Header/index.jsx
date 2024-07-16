@@ -1,4 +1,4 @@
-import { useState, useEffect } from "React";
+import { useState, useEffect } from "react";
 import { localBD } from "../../../../../src/bd/localBD.js";
 import Player from "../../../../components/Player";
 import styles from "../../../../main.module.css";
