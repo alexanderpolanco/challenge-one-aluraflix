@@ -3,7 +3,7 @@ const data = {
   videos: [
     {
       _ID: 1,
-      urlImage: "/public/img/frontend-1.webp",
+      urlImage: "./img/frontend-1.webp",
       urlVideo: "https://youtu.be/R9uaBxgCkyA?si=xTOotONjpV3l6-3a",
       categoria: "Front End",
       titulo: "¿Cuál es la diferencia entre Front End y Back End?",
@@ -12,7 +12,7 @@ const data = {
     },
     {
       _ID: 2,
-      urlImage: "/public/img/frontend-2.webp",
+      urlImage: "./img/frontend-2.webp",
       urlVideo: "https://youtu.be/UuAX5azcvDQ?si=vN1c22r5Lg-YvPsB",
       categoria: "Front End",
       titulo: "¿Cómo un desarrollador Front End utiliza el Figma?",
@@ -21,7 +21,7 @@ const data = {
     },
     {
       _ID: 3,
-      urlImage: "/public/img/frontend-3.webp",
+      urlImage: "./img/frontend-3.webp",
       urlVideo: "https://youtu.be/-Ou5c3A225k?si=XYUh664ya7nvCD5t",
       categoria: "Front End",
       titulo: "Cómo volverse un desarrollador Front End",
@@ -30,7 +30,7 @@ const data = {
     },
     {
       _ID: 4,
-      urlImage: "/public/img/frontend-4.webp",
+      urlImage: "./img/frontend-4.webp",
       urlVideo: "https://www.youtube.com/watch?v=LVMh1vrENfA",
       categoria: "Front End",
       titulo:
@@ -40,7 +40,7 @@ const data = {
     },
     {
       _ID: 5,
-      urlImage: "/public/img/frontend-5.webp",
+      urlImage: "./img/frontend-5.webp",
       urlVideo: "https://youtu.be/UNeKzI2WHgQ?si=oUkHHk0xllC9_cOk",
       categoria: "Front End",
       titulo: "Frameworks de Front End - Edición especial",
@@ -49,7 +49,7 @@ const data = {
     },
     {
       _ID: 6,
-      urlImage: "/public/img/frontend-6.webp",
+      urlImage: "./img/frontend-6.webp",
       urlVideo: "https://youtu.be/GJfOSoaXk4s?si=R9_TFCgtEMKxS_7S",
       categoria: "Front End",
       titulo: "¿Qué es JavaScript?",
@@ -58,7 +58,7 @@ const data = {
     },
     {
       _ID: 7,
-      urlImage: "/public/img/backend-1.webp",
+      urlImage: "./img/backend-1.webp",
       urlVideo: "https://youtu.be/Z024LSCMqFk?si=Zj18TUt6IhXBNGQu",
       categoria: "Back End",
       titulo: "Explorando el poder del Back-End en el Desarrollo Web",
@@ -66,7 +66,7 @@ const data = {
     },
     {
       _ID: 8,
-      urlImage: "/public/img/backend-2.webp",
+      urlImage: "./img/backend-2.webp",
       urlVideo: "https://youtu.be/3aK3Omo2RrU?si=3hOJ5Hw1_YW7sj0A",
       categoria: "Back End",
       titulo: "De Front End a Back End con Java",
@@ -75,7 +75,7 @@ const data = {
     },
     {
       _ID: 9,
-      urlImage: "/public/img/backend-3.webp",
+      urlImage: "./img/backend-3.webp",
       urlVideo: "https://youtu.be/LLt7FreeHfQ?si=ZosFZDe3S8VRUjC7",
       categoria: "Back End",
       titulo: "Desmistificando el Back-End",
@@ -84,7 +84,7 @@ const data = {
     },
     {
       _ID: 10,
-      urlImage: "/public/img/backend-4.webp",
+      urlImage: "./img/backend-4.webp",
       urlVideo: "https://youtu.be/XuSXJ9DUcvY?si=pMdd5ME6PMMP3zjU",
       categoria: "Back End",
       titulo: "Simplificando el Back End",
@@ -93,7 +93,7 @@ const data = {
     },
     {
       _ID: 11,
-      urlImage: "/public/img/backend-5.webp",
+      urlImage: "./img/backend-5.webp",
       urlVideo: "https://youtu.be/eejIHbOk_uI?si=aKagwJrM9m2Spf2y",
       categoria: "Back End",
       titulo: "¿Qué significa ser un Desarrollador Full Stack?",
@@ -102,7 +102,7 @@ const data = {
     },
     {
       _ID: 12,
-      urlImage: "/public/img/backend-6.webp",
+      urlImage: "./img/backend-6.webp",
       urlVideo: "https://youtu.be/o8x_n4Px1N0?si=PrTm_LIUrLkms0JD",
       categoria: "Back End",
       titulo: "¿Sabes qué es NodeJS?",
@@ -111,7 +111,7 @@ const data = {
     },
     {
       _ID: 13,
-      urlImage: "/public/img/gestion-1.webp",
+      urlImage: "./img/gestion-1.webp",
       urlVideo: "https://youtu.be/kIvnVfnmDyE?si=s_lFqH9GA-V-voPY",
       categoria: "Innovación y Gestión",
       titulo: "Desafíos y soluciones del trabajo remoto",
@@ -120,7 +120,7 @@ const data = {
     },
     {
       _ID: 14,
-      urlImage: "/public/img/gestion-2.webp",
+      urlImage: "./img/gestion-2.webp",
       urlVideo: "https://youtu.be/vhwspfvI52k?si=xAuM-PhN6oN20rqr",
       categoria: "Innovación y Gestión",
       titulo: "¿Qué son las Soft Skills?",
@@ -129,7 +129,7 @@ const data = {
     },
     {
       _ID: 15,
-      urlImage: "/public/img/gestion-3.webp",
+      urlImage: "./img/gestion-3.webp",
       urlVideo: "https://youtu.be/TttMvhj4uu4?si=yrOw6WX7VXVfSLia",
       categoria: "Innovación y Gestión",
       titulo: "¿Qué es scrum?",
@@ -138,7 +138,7 @@ const data = {
     },
     {
       _ID: 16,
-      urlImage: "/public/img/gestion-4.webp",
+      urlImage: "./img/gestion-4.webp",
       urlVideo: "https://youtu.be/LAK-RduBJUs?si=45kPaeqvVVn95Huv",
       categoria: "Innovación y Gestión",
       titulo: "Como desarrollar tu Marca Personal",
@@ -147,7 +147,7 @@ const data = {
     },
     {
       _ID: 17,
-      urlImage: "/public/img/gestion-5.webp",
+      urlImage: "./img/gestion-5.webp",
       urlVideo: "https://youtu.be/6N3OkLCfK-0?si=VA0GBNsDOdGKHtG4",
       categoria: "Innovación y Gestión",
       titulo: "¿Qué son las metodologias ágiles?",
@@ -156,7 +156,7 @@ const data = {
     },
     {
       _ID: 18,
-      urlImage: "/public/img/gestion-6.webp",
+      urlImage: "./img/gestion-6.webp",
       urlVideo: "https://youtu.be/TF_Rde1kbw8?si=zDQau5uPU92HT1C0",
       categoria: "Innovación y Gestión",
       titulo: "Cómo ser más productivo",
@@ -175,7 +175,7 @@ const data = {
   videos: [
     {
       _ID: 1,
-      urlImage: "/public/img/frontend-1.webp",
+      urlImage: "./img/frontend-1.webp",
       urlVideo: "https://www.youtube.com/embed/R9uaBxgCkyA?si=HMn62ZI-KkNGUTGv",
       categoria: "Front End",
       titulo: "¿Cuál es la diferencia entre Front End y Back End?",
@@ -184,7 +184,7 @@ const data = {
     },
     {
       _ID: 2,
-      urlImage: "/public/img/frontend-2.webp",
+      urlImage: "./img/frontend-2.webp",
       urlVideo: "https://www.youtube.com/embed/UuAX5azcvDQ?si=xwaw52Zlsj8Sw3Jq",
       categoria: "Front End",
       titulo: "¿Cómo un desarrollador Front End utiliza el Figma?",
@@ -193,7 +193,7 @@ const data = {
     },
     {
       _ID: 3,
-      urlImage: "/public/img/frontend-3.webp",
+      urlImage: "./img/frontend-3.webp",
       urlVideo: "https://www.youtube.com/embed/-Ou5c3A225k?si=LGApbgvonloLKxVK",
       categoria: "Front End",
       titulo: "Cómo volverse un desarrollador Front End",
@@ -202,7 +202,7 @@ const data = {
     },
     {
       _ID: 4,
-      urlImage: "/public/img/frontend-4.webp",
+      urlImage: "./img/frontend-4.webp",
       urlVideo: "https://www.youtube.com/embed/LVMh1vrENfA?si=NyDzOF8Bd1RTOts8",
       categoria: "Front End",
       titulo:
@@ -212,7 +212,7 @@ const data = {
     },
     {
       _ID: 5,
-      urlImage: "/public/img/frontend-5.webp",
+      urlImage: "./img/frontend-5.webp",
       urlVideo: "https://www.youtube.com/embed/UNeKzI2WHgQ?si=nos8f8ytUeVC9m03",
       categoria: "Front End",
       titulo: "Frameworks de Front End - Edición especial",
@@ -221,7 +221,7 @@ const data = {
     },
     {
       _ID: 6,
-      urlImage: "/public/img/frontend-6.webp",
+      urlImage: "./img/frontend-6.webp",
       urlVideo: "https://www.youtube.com/embed/GJfOSoaXk4s?si=_WbEic97DH5L2_Z5",
       categoria: "Front End",
       titulo: "¿Qué es JavaScript?",
@@ -230,7 +230,7 @@ const data = {
     },
     {
       _ID: 7,
-      urlImage: "/public/img/backend-1.webp",
+      urlImage: "./img/backend-1.webp",
       urlVideo: "https://www.youtube.com/embed/Z024LSCMqFk?si=8cVJ2aw0D_SX68n1",
       categoria: "Back End",
       titulo: "Explorando el poder del Back-End en el Desarrollo Web",
@@ -238,7 +238,7 @@ const data = {
     },
     {
       _ID: 8,
-      urlImage: "/public/img/backend-2.webp",
+      urlImage: "./img/backend-2.webp",
       urlVideo: "https://www.youtube.com/embed/3aK3Omo2RrU?si=dsyrt3DqMFDgWKqQ",
       categoria: "Back End",
       titulo: "De Front End a Back End con Java",
@@ -247,7 +247,7 @@ const data = {
     },
     {
       _ID: 9,
-      urlImage: "/public/img/backend-3.webp",
+      urlImage: "./img/backend-3.webp",
       urlVideo: "https://www.youtube.com/embed/LLt7FreeHfQ?si=lBPUAFz8gB-zDfE8",
       categoria: "Back End",
       titulo: "Desmistificando el Back-End",
@@ -256,7 +256,7 @@ const data = {
     },
     {
       _ID: 10,
-      urlImage: "/public/img/backend-4.webp",
+      urlImage: "./img/backend-4.webp",
       urlVideo: "https://www.youtube.com/embed/XuSXJ9DUcvY?si=oXTtMXvQfvl3E14R",
       categoria: "Back End",
       titulo: "Simplificando el Back End",
@@ -265,7 +265,7 @@ const data = {
     },
     {
       _ID: 11,
-      urlImage: "/public/img/backend-5.webp",
+      urlImage: "./img/backend-5.webp",
       urlVideo: "https://www.youtube.com/embed/eejIHbOk_uI?si=YRg9MgSLlQoOh1Hl",
       categoria: "Back End",
       titulo: "¿Qué significa ser un Desarrollador Full Stack?",
@@ -274,7 +274,7 @@ const data = {
     },
     {
       _ID: 12,
-      urlImage: "/public/img/backend-6.webp",
+      urlImage: "./img/backend-6.webp",
       urlVideo: "https://www.youtube.com/embed/o8x_n4Px1N0?si=lPiSCF5AIJ742v7D",
       categoria: "Back End",
       titulo: "¿Sabes qué es NodeJS?",
@@ -283,7 +283,7 @@ const data = {
     },
     {
       _ID: 13,
-      urlImage: "/public/img/gestion-1.webp",
+      urlImage: "./img/gestion-1.webp",
       urlVideo: "https://www.youtube.com/embed/kIvnVfnmDyE?si=tZ-Z0a15391XlNFb",
       categoria: "Innovación y Gestión",
       titulo: "Desafíos y soluciones del trabajo remoto",
@@ -292,7 +292,7 @@ const data = {
     },
     {
       _ID: 14,
-      urlImage: "/public/img/gestion-2.webp",
+      urlImage: "./img/gestion-2.webp",
       urlVideo: "https://www.youtube.com/embed/vhwspfvI52k?si=Q-vqr9WLgnidkhEB",
       categoria: "Innovación y Gestión",
       titulo: "¿Qué son las Soft Skills?",
@@ -301,7 +301,7 @@ const data = {
     },
     {
       _ID: 15,
-      urlImage: "/public/img/gestion-3.webp",
+      urlImage: "./img/gestion-3.webp",
       urlVideo: "https://www.youtube.com/embed/TttMvhj4uu4?si=ApX8iKxz9wRmlKjb",
       categoria: "Innovación y Gestión",
       titulo: "¿Qué es scrum?",
@@ -310,7 +310,7 @@ const data = {
     },
     {
       _ID: 16,
-      urlImage: "/public/img/gestion-4.webp",
+      urlImage: "./img/gestion-4.webp",
       urlVideo: "https://www.youtube.com/embed/LAK-RduBJUs?si=ocWPSVeHOgenaWb6",
       categoria: "Innovación y Gestión",
       titulo: "Como desarrollar tu Marca Personal",
@@ -319,7 +319,7 @@ const data = {
     },
     {
       _ID: 17,
-      urlImage: "/public/img/gestion-5.webp",
+      urlImage: "./img/gestion-5.webp",
       urlVideo: "https://www.youtube.com/embed/6N3OkLCfK-0?si=xTSNf2xF-KAGesYy",
       categoria: "Innovación y Gestión",
       titulo: "¿Qué son las metodologias ágiles?",
@@ -328,7 +328,7 @@ const data = {
     },
     {
       _ID: 18,
-      urlImage: "/public/img/gestion-6.webp",
+      urlImage: "./img/gestion-6.webp",
       urlVideo: "https://www.youtube.com/embed/TF_Rde1kbw8?si=00Prcge-b2G4xlbP",
       categoria: "Innovación y Gestión",
       titulo: "Cómo ser más productivo",
