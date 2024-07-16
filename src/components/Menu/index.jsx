@@ -8,7 +8,7 @@ export default function Menu() {
       <div className={styles.background}>
         <img
           className={styles.logoPrincipal}
-          src="../../public/img/LogoMain.svg"
+          src="./img/LogoMain.svg"
           alt="Logo"
         />
         <ul>
