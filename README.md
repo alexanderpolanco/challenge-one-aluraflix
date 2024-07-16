@@ -8,7 +8,7 @@
   <p align="center">
     Challenge ONE | AluraFlix
     <br />
-    <a href="https://alexanderpolanco.github.io/challenge-one-aluraflix/" target="_blank"><strong>Ver demo »</strong></a>
+    <a href="https://challenge-one-aluraflix.pages.dev/" target="_blank"><strong>Ver demo »</strong></a>
     <br />
   </p>
 </div>
@@ -17,7 +17,7 @@
 
 ## Acerca del proyecto
 
-[![Vista desktop][product-screenshot-desktop]](https://alexanderpolanco.github.io/challenge-one-aluraflix/)
+[![Vista desktop][product-screenshot-desktop]](https://challenge-one-aluraflix.pages.dev/)
 
 Este proyecto es una actividad recomendada de realizar por el programa G6 ONE. La idea es poner en práctica lo aprendido con este challenge.
 
@@ -31,14 +31,9 @@ Este proyecto es una actividad recomendada de realizar por el programa G6 ONE. L
 - JAVASCRIPT
 - REACT JS
 
-### Demo
+### Demo en móvil
 
-<center>
-<video width="600" height="400" autoplay loop muted>
-  <source src="./public/videos/video-1-aluraflix.mp4" type="video/mp4">
-  Tu navegador no soporta el video HTML5.
-</video>
-</center>
+[![Vista movil][product-screenshot-movil]](https://challenge-one-aluraflix.pages.dev/)
 
 ### Desarrollo
 
@@ -72,5 +67,6 @@ Distribuido bajo licencia GPL. Ver `LICENSE.txt` para más información.
 [CSS3]: https://img.shields.io/badge/css3-orange?logo=css3
 [CSS3-url]: https://developer.mozilla.org/es/docs/Web/CSS
 [product-screenshot-desktop]: ./public/img/shots_so_1.jpeg
+[product-screenshot-movil]: ./public/img/shots_so_2.jpeg
 [ReactJS]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=plastic
 [React-JS]: https://es.react.dev/
