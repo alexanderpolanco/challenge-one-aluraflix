@@ -1,0 +1,104 @@
+:root {
+  --red-100: rgb(185, 44, 44);
+}
+
+.toatMessage {
+  min-width: 250px;
+  max-width: 250px;
+  margin: 0px 20px;
+}
+
+.inputInvalid:invalid {
+  outline: none;
+  box-shadow: 0 0 1px 1px var(--red-100);
+  border-color: var(--red-100);
+}
+
+.toatMessage {
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  gap: 3px;
+  margin: 70px 0 0 0;
+  background-color: var(--red-100);
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 8px 8px 8px;
+  z-index: 999;
+  border-radius: 0 0 5px 5px;
+  clip-path: polygon(
+    30% 16%,
+    100% 16%,
+    100% 100%,
+    0 100%,
+    0 16%,
+    24% 16%,
+    31% 0
+  );
+  animation: opacity-0-to-1 0.3s;
+  svg {
+    margin-top: 1px;
+    max-width: 14px;
+    max-height: 14px;
+  }
+  p {
+    margin: 0px;
+  }
+}
+
+textarea + .toatMessage {
+  margin: 130px 0 0 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  text-wrap: balance;
+}
+
+img,
+video,
+svg {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition: none;
+  }
+}

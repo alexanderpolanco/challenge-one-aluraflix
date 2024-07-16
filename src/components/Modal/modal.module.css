@@ -1,0 +1,122 @@
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--DarkBlue-76);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.containerTitulo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.buttonClose {
+  border: solid 1.5px var(--white-100);
+  border-radius: 50%;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.titulo {
+  margin: auto;
+  width: fit-content;
+  color: var(--blue-100);
+}
+
+.formulario {
+  color: var(--white-100);
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  max-width: 630px;
+  background-color: var(--DarkBlue-100);
+  border-radius: 15px;
+  border: solid 3px var(--lightBlue-100);
+  padding: 20px 30px;
+}
+
+.inputsForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttonsForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 15px;
+}
+
+.button {
+  font-size: 0.8rem;
+  color: var(--white-100);
+  background-color: transparent;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  min-width: 121px;
+}
+
+.buttonSubmit {
+  border: solid 2px var(--blue-100);
+  color: var(--blue-100);
+}
+
+.buttonLimpiar {
+  border: solid 2px var(--gray-100);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+
+  span {
+    font-size: 0.8rem;
+  }
+
+  select,
+  textarea,
+  input[type="text"],
+  input[type="url"] {
+    font-size: 0.8rem;
+    color: var(--white-50);
+    background-color: transparent;
+    border: solid 2px var(--blue-100);
+    border-radius: 5px;
+    padding: 10px 5px;
+    min-width: 250px;
+  }
+
+  select option {
+    background-color: var(--DarkBlue-100);
+  }
+
+  textarea:focus-visible,
+  select:focus-visible,
+  input:focus-visible {
+    outline: none;
+    box-shadow: 0 0 1px 1px var(--blue-100);
+  }
+}
+
+@media (width <= 560px) {
+  .inputsForm {
+    justify-content: center;
+  }
+  .buttonsForm {
+    justify-content: center;
+  }
+
+  .subTitulo {
+    justify-content: center;
+  }
+}

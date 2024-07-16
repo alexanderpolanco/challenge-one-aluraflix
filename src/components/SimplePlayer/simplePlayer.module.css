@@ -1,0 +1,99 @@
+.fullScreen {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.player {
+  transition: all 1s;
+}
+
+.overVideo {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.containerControls {
+  display: flex;
+  color: var(--white-100);
+  flex-direction: column;
+  padding: 15px 30px;
+}
+
+.iconButtonsControls {
+  cursor: pointer;
+  transition: all 1s;
+  width: 24px;
+  height: 24px;
+}
+
+.iconArrowBack {
+  width: 48px;
+  height: auto;
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+  }
+}
+
+.progresBar {
+  width: 100%;
+}
+
+.controlsMarginLeft {
+  margin-left: 20px;
+}
+
+.containerVolume {
+  width: fit-content;
+}
+
+.backgroundControlsDown {
+  transition: all 1s;
+  background-image: var(--black-gradient-180);
+  transform: translateY(80px);
+}
+
+.backgroundControlsUp {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  transition: all 1s;
+  background-image: var(--black-gradient);
+  transform: translateY(-80px);
+}
+
+.tituloVideo {
+  font-size: 1rem;
+}
+
+.cursorPointer:hover {
+  cursor: pointer;
+}
+
+@media (width < 420px) {
+  .containerVolume {
+    display: none;
+  }
+  .controlsMarginLeft {
+    display: none;
+  }
+}
+
+@media (width < 720px) {
+  .iconFullscreen {
+    display: none;
+  }
+}

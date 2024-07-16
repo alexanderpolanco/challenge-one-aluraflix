@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/fonts/Montserrat-VF.woff2") format("woff2");
+
+  font-display: swap;
+}
+
+:root {
+  --white-100: rgb(255, 255, 255);
+  --white-30: rgba(255, 255, 255, 0.3);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --white-50: rgba(255, 255, 255, 0.7);
+  --black-100: rgb(20, 20, 20);
+  --black-50: rgba(20, 20, 20, 0.5);
+  --gray-100: rgb(179, 179, 179);
+  --blue-100: rgb(34, 113, 209);
+  --blue-90: rgba(34, 113, 209, 0.9);
+  --lightBlue-100: rgba(107, 209, 255, 100%);
+  --DarkBlue-76: rgba(3, 18, 47, 76%);
+  --DarkBlue-100: rgba(3, 18, 47, 100%);
+  --green-90: rgba(0, 200, 111, 0.9);
+  --orange-90: rgba(255, 186, 5, 0.9);
+  --black-gradient: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  --black-gradient-180: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.781) 0%,
+    rgb(0, 0, 0) 100%
+  );
+
+  font-family: Montserrat, sans-serif;
+}
+
+.trasparentColor {
+  background-color: transparent;
+}
+
+.frontEndColor {
+  background-color: var(--blue-90);
+}
+
+.backEndColor {
+  background-color: var(--green-90);
+}
+
+.gestionColor {
+  background-color: var(--orange-90);
+}
+
+.textColorFrontEnd {
+  color: var(--blue-90);
+}
+
+.textColorbackEnd {
+  color: var(--green-90);
+}
+
+.textColorgestion {
+  color: var(--orange-90);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: var(--black-100);
+}

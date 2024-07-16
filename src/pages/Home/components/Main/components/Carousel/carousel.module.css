@@ -1,0 +1,113 @@
+.embla {
+  --slide-height: 200px;
+  --slide-spacing: 1rem;
+  --slide-size: 300px;
+  --detail-medium-contrast: rgb(25, 25, 25);
+  --text-high-contrast-rgb-value: 230, 230, 230;
+  --detail-high-contrast: rgb(101, 101, 101);
+  --text-body: rgb(54, 49, 61);
+  color: var(--white-100);
+  overflow-x: clip;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+}
+
+.emblaContainer {
+  display: flex;
+  backface-visibility: hidden;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.emblaSlide {
+  margin: 0 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+  height: var(--slide-height);
+  border-radius: 0.5rem;
+  transition: all 2s;
+}
+
+.emblaSlide:hover {
+  transform: scale(1.1);
+}
+
+.emblaSlideContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.controlsSlide {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 0.8rem;
+}
+
+.buttonSlide {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--white-100);
+  background-color: transparent;
+  border: none;
+  padding: 10px 0px;
+
+  svg {
+    width: 15px;
+    height: auto;
+  }
+}
+
+.emblaButtons {
+  display: flex;
+  position: absolute;
+  color: var(--white-100);
+  width: calc(100% - 100px);
+  justify-content: space-between;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.emblaButton {
+  display: inline-flex;
+  display: flex;
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 3.6rem;
+  z-index: 1;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.emblaButtonRight {
+  transform: translateY(calc((var(--slide-height) / 2) * -1));
+}
+
+.emblaButtonLeft {
+  transform: translateY(calc((var(--slide-height) / 2) * -1));
+}
+
+.emblaButton:disabled {
+  color: var(--detail-high-contrast);
+}
+
+.emblaButtonSvg {
+  width: 35%;
+  height: 35%;
+}

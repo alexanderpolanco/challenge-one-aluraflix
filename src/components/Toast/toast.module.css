@@ -1,0 +1,16 @@
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  border: solid 2px var(--white-100);
+  background-color: green;
+  color: var(--white-100);
+  transform: translateX(-251px);
+  transition: all 2s;
+}
